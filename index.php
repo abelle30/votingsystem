@@ -1,28 +1,65 @@
 <?php include ('head.php');?>
 
 <body>
-	<?php include ('view_banner.php');?>
+<?php include ('index_banner.php');?>
+    <div class="container">
+        <div class="row">
+		
+                    <center> 
+                        Login As:
+                        <select onchange = "page(this.value)">
+                            <option selected disabled>System CSCA</option>
+                            <option value = "../login.php">Student Voter</option> 
+                    </select>
+                        
+                    </center>
+						<div class="col-md-4 col-md-offset-4">
+						<div class="login-panel panel panel-default">
 
-    <heading class="voters_heading">
-        <center><h1>Adamson University Student Government</h1>
-    </heading>
-	<div class="image">
-    	<img src="img/ausglogo.jpg" width="40%" hieght="40%"/>
+                    
+                    <div class="form-heading">
+                        <center>Admin Log in</center>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" method = "post" enctype = "multipart/form-data">
+                                <div class="form-group">
+                                    <label for = "username" >Login ID</label>
+                                        <input class="form-control" placeholder="Enter Login ID" name="login_id" type="text" autofocus>
+                                </div>
+							
+                                <div class="form-group">
+									<label for = "username" >Username</label>
+										<input class="form-control" placeholder="Enter Username" name="username" type="text" autofocus>
+                                </div>
+								
+                                <div class="form-group">
+									<label for = "username" >Password</label>
+										<input class="form-control" placeholder="Enter Password" name="password" type="password" value="">
+                                </div>
+                             
+                              
+                                <button class="btn btn-lg btn-success btn-block " name = "login">Login</a>
+							
+									<?php include ('login_query.php');?>
+                        </form>
+                    </div>
+                </div>
+            </div>
+			
+			 </div>
+        </div>
     </div>
-	<div class="container" style="text-align:center;text-size:50px" >
-    	<h2>The Adamson University Student Government (AUSG) was established on October 11. 
-		1981 after a three stage election that started the basic political unit in the University.</h2>
-    </div><br>
-    <?php include 'slider.php';?>
-    
-	
-   
+    <script type="text/javascript">
+  function page (src) {
+    window.location = src;
+  }
+  </script>
 
+  <?php 
+  include ('script.php');
+  include ('footer.php');
+  ?>
 
-    <?php    
-        include ('footer.php');
-        ?>
+</body>
 
-   </body>
 </html>
-

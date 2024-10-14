@@ -1,36 +1,44 @@
 <?php
-	require_once 'admin/dbcon.php';
+	require_once 'dbcon.php';
 	
-	if(isset($_POST['login'])){
-		$idno=$_POST['idno'];
+	if(isset($_POST['login']))
+	{
+		$username=$_POST['username'];
 		$password=$_POST['password'];
+		$login_id = $_POST['login_id'];
 	
-		$result = $conn->query("SELECT * FROM voters WHERE id_number= '$idno' && password = '$password' && account = 'active' && status = 'Unvoted'") or die(mysqli_errno());
-		$row = $result->fetch_array();
-		$voted = $conn->query("SELECT * FROM voters WHERE id_number='$idno' && password = '$password' && status = 'Voted'")->num_rows;
-		$numberOfRows = $result->num_rows;				
 		
-		
-		if ($numberOfRows > 0){
-			session_start();
-			$_SESSION['voters_id'] = $row['voters_id'];
-			header('location:vote.php');
-		}
-		
-
-		if($voted == 1){
-			?>
-			<script type="text/javascript">
-			alert('Sorry You Already Voted')
-			</script>
-			<?php
-		}else{
-			?>
-			<script type="text/javascript">
-			alert('Your account is not Actived')
-			</script>
-			<?php
-		}
+		$query = $conn->query("SELECT * FROM user WHERE username = 	'$username' AND password = '$password' AND user_id = '$login_id' ") or die($conn->error);
+		$rows = $query->num_rows;
+		$fetch = $query->fetch_array();
+																		
+			if ($rows == 0) 
+					{
+						?>
+						<script type="text/javascript">
+						alert('Username/Password Error!');
+						window.location = 'index.php';
+						</script>
+						<?php
+					} 
+				else if ($rows > 0)
+					{
+						?>
+						<script type="text/javascript">
+						alert('WelCome!');
+						window.location = 'candidate.php';
+						</script>
+						<?php
+					session_start();
+					$_SESSION['id'] = $fetch['user_id'];
+			}else{
+				?>
+						<script type="text/javascript">
+						alert('Error!');
+						window.location = '../index.php';
+						</script>
+						<?php
+			}	
 	
 	}
-?>
+	?>

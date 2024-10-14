@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<!--
-Author: Charles Kapiya Mukupa
-Year: 2018
-Profession: BSc. Information Systems Technology 
-University of Lusaka
--->
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,9 +9,9 @@ University of Lusaka
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OVS | Online Voting System</title>
-	<link rel = "stylesheet" type = "text/css" href = "css/myStyles.css" />
-	   <!-- Bootstrap Core CSS -->
+    <title>NEW ADMIN</title>
+
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	
 	<!-- Default Layout -->
@@ -30,6 +24,8 @@ University of Lusaka
     <link href="css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
-</head
+    <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/MyStyles.css">
+
+
+</head>
