@@ -43,31 +43,7 @@ CREATE TABLE `candidate` (
 -- Dumping data for table `candidate`
 --
 
-INSERT INTO `candidate` (`candidate_id`, `position`, `firstname`, `lastname`, `year_level`, `gender`, `img`, `party`) VALUES
-(1, 'President', 'Wilz', 'John', '3rd Year', 'Male', 'upload/163.jpg', 'UNLUSU'),
-(2, 'President', 'Wild', 'Tuna', '4th Year', 'Female', 'upload/2.jpg', 'UNLUSU'),
-(3, 'Vice President', 'Charles', 'Kupa', '4th Year', 'Male', 'upload/FB_IMG_1512549340567.jpg', 'UPA'),
-(4, 'Vice President', 'Mercy', 'Lastace', '1st Year', 'Female', 'upload/2016-Ford-Mustang-GT-KING-Edition-Convertible-Black-6-1600x900.jpg', 'UPP'),
-(5, 'Union Advisor', 'Harry', 'Linkon', '3rd Year', 'Female', 'upload/2017-ford-mustang-gt-lt-15.jpg', 'DDA'),
-(6, 'Union Advisor', 'Janet ', 'Ngulube', '1st Year', 'Female', 'upload/1920x1200-2087858-sports-car-wallpaper.jpg', 'ZAPO'),
-(7, 'Sports Secretary', 'Christianol', 'Ronaldo', '1st Year', 'Male', 'upload/163.jpg', 'FIFA15'),
-(8, 'Sports Secretary', 'Garith', 'Bale', '4th Year', 'Male', 'upload/FB_IMG_1512549311412.jpg', 'FIFA 18'),
-(9, 'Entertainment Advisor', 'Dj', 'Dazo', '4th Year', 'Female', 'upload/FB_IMG_1512549320331.jpg', '87.7 FM'),
-(10, 'Entertainment Advisor', 'James ', 'Kalaba', '2nd Year', 'Female', 'upload/2.jpg', 'UNZA RADIO'),
-(11, 'Treasurer', 'Mike', 'Banda', '4th Year', 'Male', 'upload/FB_IMG_1512549442135.jpg', 'BOZ'),
-(12, 'Treasurer', 'Lisa', 'Mulenga', '4th Year', 'Female', 'upload/ws_Porsche_911_Autumn_1366x768.jpg', 'ZANACO'),
-(13, 'Secretary General', 'Harison', 'Daka', '1st Year', 'Male', 'upload/FB_IMG_1512549340567.jpg', 'UNLUSU'),
-(14, 'Secretary General', 'Susan', 'Nachalo', '1st Year', 'Female', 'upload/1920x1200-2087858-sports-car-wallpaper.jpg', 'UNZA RADIO'),
-(15, 'Vice Treasurer', 'Kalumba', 'Mwiche', '4th Year', 'Male', 'upload/2016-ford-mustang-gt-v8-manual-grey-55.jpg', 'FIFA 18'),
-(16, 'Vice Treasurer', 'Dickson', 'Shaka', '3rd Year', 'Male', 'upload/2016-Ford-Mustang-GT-KING-Edition-Convertible-Black-6-1600x900.jpg', 'UPP'),
-(17, 'Transport & Accommodation Secretary', 'Mazhandu', 'Bus', '3rd Year', 'Male', 'upload/2017-ford-mustang-gt-lt-15.jpg', 'ZANACO'),
-(18, 'Transport & Accommodation Secretary', 'Flight', 'Njovu', '1st Year', 'Female', 'upload/ws_Porsche_911_Autumn_1366x768.jpg', 'DDA'),
-(19, 'Publicity Secretary', 'Headline', 'Mbewe', '2nd Year', 'Female', 'upload/FB_IMG_1512549320331.jpg', 'FIFA15'),
-(20, 'Publicity Secretary', 'Daily', 'News', '4th Year', 'Female', 'upload/1920x1200-2087858-sports-car-wallpaper.jpg', 'UNLUSU'),
-(21, 'Academics Secretary', 'Michelle', 'Mwale', '3rd Year', 'Female', 'upload/2.jpg', 'UNZA RADIO'),
-(22, 'Academics Secretary', 'Gift', 'Nkhole', '2nd Year', 'Male', 'upload/FB_IMG_1512549311412.jpg', 'FIFA 18');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `ids`
@@ -83,20 +59,7 @@ CREATE TABLE `ids` (
 -- Dumping data for table `ids`
 --
 
-INSERT INTO `ids` (`id_number`, `names`, `started`) VALUES
-('BFIN119', 'Finous Acculate', '2021-04-16'),
-('BIT101', 'Wild Cat Three', '2019-02-09'),
-('BIT110', 'Metoo Jack', '2015-01-09'),
-('BIT112', 'Charles Mukupa', '2019-02-09'),
-('BIT113', 'Wl Turner', '2019-02-11'),
-('BIT114', 'Jamason Liquor', '2017-06-20'),
-('BITED100', 'Joe Kay', '2019-02-14'),
-('DS116', 'Devy Stud', '2019-02-12'),
-('LLB115', 'Judy Court', '2017-07-16'),
-('LLB118', 'Jackline Hamster', '2013-10-17'),
-('PBH117', 'Publy Hether', '2018-07-12');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `logins`
@@ -112,12 +75,7 @@ CREATE TABLE `logins` (
 -- Dumping data for table `logins`
 --
 
-INSERT INTO `logins` (`user_id`, `username`, `login_time`) VALUES
-(1, ' user', '2019-02-12 13:21:43'),
-(2, ' user', '2019-02-12 13:37:32'),
-(3, ' user', '2019-02-12 18:44:37');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `user`
@@ -137,10 +95,7 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`user_id`, `username`, `password`, `firstname`, `lastname`, `Phone`, `email`) VALUES
-(1, 'admin', 'admin', 'Charles', 'Kupa', 977112458, 'Kapiya@gmail.com');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `users`
@@ -160,10 +115,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `username`, `password`, `firstname`, `lastname`, `Phone`, `email`) VALUES
-(4, 'user', 'user', 'C', 'Cat3', 253626, 'char@mail.com');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `voters`
@@ -187,20 +139,7 @@ CREATE TABLE `voters` (
 -- Dumping data for table `voters`
 --
 
-INSERT INTO `voters` (`voters_id`, `id_number`, `firstname`, `lastname`, `gender`, `prog_study`, `year_level`, `status`, `account`, `date`, `password`) VALUES
-(59, 'BIT101', 'Wild', 'Cat3', 'Male', 'BIT', '1st Year', 'Voted', 'Active', '2019-02-09', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(60, 'BIT113', 'w', 'Turner', 'Male', 'BIT', '1st Year', 'Voted', 'Active', '2019-02-11', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(61, 'BFIN119', 'Jane', 'Mwale', 'Female', 'BFIN', '2nd Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(62, 'BIT110', 'Isaac ', 'Phiri', 'Male', 'BIT', '3rd Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(63, 'BIT114', 'James  ', 'Daka', 'Male', 'BIT', '4th Year', 'Voted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(64, 'DS116', 'Angel', 'Koni', 'Female', 'DS', '4th Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(65, 'LLB115', 'Juliet', 'Kamasa', 'Female', 'LLB', '1st Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(66, 'LLB118', 'Willium ', 'Daka', 'Male', 'LLB', '3rd Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(67, 'PBH117', 'Kapiya ', 'Charles', 'Male', 'PBH', '4th Year', 'Unvoted', 'Active', '2019-02-12', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(71, 'BIT112', 'Lisa', 'Newtone', 'Female', 'BIT', '3rd Year', 'Unvoted', 'Active', '2019-02-14', '4a7d1ed414474e4033ac29ccb8653d9b'),
-(72, 'BITED100', 'Joe', 'Kay', 'Male', 'BITED', '1st Year', 'Unvoted', 'Active', '2019-02-14', '4a7d1ed414474e4033ac29ccb8653d9b');
-
--- --------------------------------------------------------
+-- Sample data intentionally omitted.\r\n\r\n-- --------------------------------------------------------
 
 --
 -- Table structure for table `votes`
@@ -216,31 +155,7 @@ CREATE TABLE `votes` (
 -- Dumping data for table `votes`
 --
 
-INSERT INTO `votes` (`vote_id`, `candidate_id`, `voters_id`) VALUES
-(111, '1', '59'),
-(112, '3', '59'),
-(113, '6', '59'),
-(114, '8', '59'),
-(115, '9', '59'),
-(116, '11', '59'),
-(117, '14', '59'),
-(118, '15', '59'),
-(119, '18', '59'),
-(120, '19', '59'),
-(121, '22', '59'),
-(122, '2', '63'),
-(123, '3', '63'),
-(124, '6', '63'),
-(125, '8', '63'),
-(126, '10', '63'),
-(127, '11', '63'),
-(128, '13', '63'),
-(129, '16', '63'),
-(130, '17', '63'),
-(131, '19', '63'),
-(132, '22', '63');
-
---
+-- Sample data intentionally omitted.\r\n\r\n--
 -- Indexes for dumped tables
 --
 
